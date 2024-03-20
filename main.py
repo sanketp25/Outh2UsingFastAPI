@@ -10,6 +10,7 @@ SECRET_KEY ="36a116464d89348c45e137e5d1577f1192f88bd624a92590320b8905331ee20"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
+#for this db, the username is the object name for the dictionary, thus username should be the same as user 
 db = {
     "sanketp25":{
         "username" : "sanketp25",
