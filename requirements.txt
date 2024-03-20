@@ -1,0 +1,6 @@
+python==3.9
+fastapi
+uvicorn[standard]  this will read our fastapi and create a server
+python-multipart this decodes json data, internally used by fastapi
+python-jose[cryptography] used for password hashing
+passlib[bcrypt] 
